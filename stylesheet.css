@@ -1,0 +1,60 @@
+body {margin: 0;
+    min-height: 100vh;
+    
+    
+
+    background-color: rgb(254, 181, 192);
+    
+    background-size: cover;
+    
+    background-position: center;
+    
+    background-repeat: no-repeat;
+
+text-align: center;
+}
+
+nav a {
+    margin: 0% 15px;
+    text-decoration: none;
+    color: black;
+    nav a:hover {
+        color: c05283;
+    }
+}
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image: url("images/skullbackground.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.25;
+    pointer-events: none;
+    z-index: -1;
+}
+
+
+.glass-button {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 20px;
+
+    background-color: rgba(100, 45, 75, 0.35);
+    backdrop-filter: blur (8px);
+    -webkit-backdrop-filter: blur (8px);
+    
+    border: 2px solid rgba(255, 210, 230, 0.95);
+    border-radius: 30px;
+
+    color: black;
+    text-decoration: none;
+    
+    box-shadow: 
+    0 0 12px  rgba(255, 80, 160, 0.8),
+    0 0 25px rgba(255, 80, 160, 0.5),
+    inset 0 2px 8px rgba(255, 255, 255, 0.5);
+    
+    
+
+}
